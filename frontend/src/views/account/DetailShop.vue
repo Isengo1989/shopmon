@@ -164,7 +164,7 @@ async function onRefresh() {
             <span class="text-green-400 mr-1 text-base dark:text-green-200" data-tooltip="Active" v-else-if="item.active">
               <icon-fa6-solid:circle-check />
             </span>
-            <span class="text-gray-300 mr-1 text-base dark:text-neutral-500" data-tooltip="Deactive" v-else>
+            <span class="text-gray-300 mr-1 text-base dark:text-neutral-500" data-tooltip="Inactive" v-else>
               <icon-fa6-solid:circle-xmark />
             </span>
             <template v-if="item.storeLink">
